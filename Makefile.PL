@@ -9,7 +9,6 @@ WriteMakefile
           'VERSION_FROM' => 'lib/Apache2/AuthenNIS.pm',
           'PREREQ_PM' => {
                            'Test::More' => 0,
-                           'mod_perl2' => 0,
                            'Net::NIS' => 0
                          }
         )

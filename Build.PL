@@ -11,8 +11,10 @@ my $builder = Module::Build->new(
         'Test::More' => 0,
     },
     requires            => {
-        'mod_perl2'  => 0,
         'Net::NIS'   => 0,
+    },
+    recommends          => {
+        'mod_perl2'  => 0,
     },
     add_to_cleanup      => [ 'Apache2-AuthenNIS-*' ],
     create_makefile_pl  => 'traditional',
